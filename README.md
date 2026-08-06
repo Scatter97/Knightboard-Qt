@@ -4,7 +4,7 @@ Knightboard is an offline-first chess client rebuilt from the ground up with Qt.
 
 ## Status
 
-The first foundation includes a modern single-window Qt shell and a native Chess960 generator. OpenCV will be used only for future camera/detection processing, never for visible application windows.
+The current Qt-native foundation includes single-window navigation, an interactive chessboard, PGN history and saving, Chess960, opening and endgame explorers, local Syzygy probing, settings, virtual/OTB bot game boards, and an embedded camera preview. OpenCV is used only for camera frame processing, never for visible application windows.
 
 ## Run
 
@@ -12,3 +12,5 @@ The first foundation includes a modern single-window Qt shell and a native Chess
 python -m pip install -r requirements.txt
 python -m knightboard
 ```
+
+On Windows you can also run `run_windows.bat`.
