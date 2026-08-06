@@ -1,0 +1,1 @@
+"""Knightboard Qt application package."""
